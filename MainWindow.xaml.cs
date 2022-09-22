@@ -34,5 +34,10 @@ namespace YP2Cherednichenko
             Window1 window1 = new Window1();
             window1.Show();
         }
+        private void Win2_Click(object sender, RoutedEventArgs e)
+        {
+            Window2 window2 = new Window2();
+            window2.Show();
+        }
     }
 }
