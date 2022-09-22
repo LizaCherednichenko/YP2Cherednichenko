@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="67*"/>
+            <ColumnDefinition Width="197*"/>
+        </Grid.ColumnDefinitions>
         <!--<Button Content="Нажать" FontSize="22" Width="200" Height="80" Click="Button_Click"/>-->
         <!--<Button x:Name="Btnl"
                 HorizontalAlignment="Center"
@@ -18,7 +22,7 @@
                 Foreground="#006699"
                 Background="#f0f0f0"
                 BorderBrush="#303030" />-->
-        <Button x:Name="Btnl" Height="50" Width="200" Content="Обычная кнопка">
+        <!--<Button x:Name="Btnl" Height="50" Width="200" Content="Обычная кнопка" Grid.Column="1" Margin="94.708,184,296,185">
             <Button.Background>
                 <LinearGradientBrush>
                     <LinearGradientBrush.GradientStops>
@@ -27,6 +31,10 @@
                     </LinearGradientBrush.GradientStops>
                 </LinearGradientBrush>
             </Button.Background>
-        </Button>
+        </-->
+        <Canvas>
+            <Button x:Name="Win1" Canvas.Left="10" Canvas.Top="10" Height="50" Width="100" Content="Win1" Click="Win1_Click"></Button>
+            <!--<Button x:Name="Win2" Canvas.Left="150" Canvas.Top="10" Height="50" Width="100" Content="Win2" Click="Win2_Click"></Button>-->
+        </Canvas>
     </Grid>
 </Window>
