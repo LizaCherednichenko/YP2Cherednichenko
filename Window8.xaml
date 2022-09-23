@@ -9,11 +9,11 @@
     <Grid>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="87"/>
+            <RowDefinition Height="67"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="163"/>
+            <ColumnDefinition Width="149"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
@@ -38,13 +38,12 @@
         </Canvas>
 
         <WrapPanel Grid.Row="1" Grid.Column="1">
-
-            <Button Content="A" Width="70" Height="70" Background="#FFD0D818"/>
-            <Button Width="70" Height="70" Background="#FFC56060"/>
-            <Button Content="C" Width="70" Height="70" Background="#FF6ADA6F"/>
-            <Button Width="70" Height="70" Background="#FF6579AE"/>
-            <Button Content="E" Width="70" Height="70" Background="#FF979797" BorderBrush="{x:Null}"/>
-            <Button Content="F" Width="70" Height="70" Background="#FFFBFFCE" BorderBrush="{x:Null}"/>
+            <Button Content="A" Width="80" Height="80" Background="#FFD0D818" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Width="80" Height="80" Background="#FFC56060" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="C" Width="80" Height="80" Background="#FF6ADA6F" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Width="80" Height="80" Background="#FF6579AE" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="E" Width="80" Height="80" Background="#FF979797" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="F" Width="80" Height="80" Background="#FFFBFFCE" BorderBrush="{x:Null}" BorderThickness="8"/>
         </WrapPanel>
 
     </Grid>
