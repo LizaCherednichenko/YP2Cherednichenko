@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="Window8" Height="450" Width="800">
     <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="87"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="163"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
         <Canvas>
             <Label Canvas.Left="10" Canvas.Top="10" Content="Последние документы"/>
             <Label Canvas.Left="10" Canvas.Top="40" Content="1.txt"/>
@@ -15,7 +25,7 @@
             <Label Canvas.Left="10" Canvas.Top="130" Content="4.txt"/>
             <Label Canvas.Left="10" Canvas.Top="160" Content="5.txt"/>
             <Label Canvas.Left="10" Canvas.Top="190" Content="6.txt"/>
-            
+
             <Button Canvas.Left="150" Canvas.Top="15" Content="Открыть"/>
             <Button Canvas.Left="210" Canvas.Top="15" Content="Сохранить"/>
             <Button Canvas.Left="282" Canvas.Top="15" Content="Закрыть"/>
@@ -26,5 +36,16 @@
             <Label Canvas.Left="185" Canvas.Top="40" Content="2.txt"/>
             <Label Canvas.Left="220" Canvas.Top="40" Content="3.txt"/>
         </Canvas>
+
+        <WrapPanel Grid.Row="1" Grid.Column="1">
+
+            <Button Content="A" Width="70" Height="70" Background="#FFD0D818"/>
+            <Button Width="70" Height="70" Background="#FFC56060"/>
+            <Button Content="C" Width="70" Height="70" Background="#FF6ADA6F"/>
+            <Button Width="70" Height="70" Background="#FF6579AE"/>
+            <Button Content="E" Width="70" Height="70" Background="#FF979797" BorderBrush="{x:Null}"/>
+            <Button Content="F" Width="70" Height="70" Background="#FFFBFFCE" BorderBrush="{x:Null}"/>
+        </WrapPanel>
+
     </Grid>
 </Window>
