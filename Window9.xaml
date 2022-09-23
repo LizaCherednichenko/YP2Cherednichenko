@@ -7,6 +7,29 @@
         mc:Ignorable="d"
         Title="Window9" Height="450" Width="800">
     <Grid>
-        
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <WrapPanel Orientation="Vertical" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            <Button Content="A" Height="80" Width="80" Background="#FFFBE979" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Width="80" Height="80" Background="#FFC56060" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="C" Width="80" Height="80" Background="#FF6ADA6F" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Width="80" Height="80" Background="#FF6579AE" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="E" Width="80" Height="80" Background="#FF979797" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="F" Width="80" Height="80" Background="#FFD4D4D4" BorderBrush="{x:Null}" BorderThickness="8"/>
+        </WrapPanel>
+
+        <WrapPanel Orientation="Vertical" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Stretch">
+            <Button Content="A" Height="80" Width="80" Background="#FFFBE979" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Width="80" Height="80" Background="#FFC56060" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="C" Width="80" Height="80" Background="#FF6ADA6F" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Width="80" Height="80" Background="#FF6579AE" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="E" Width="80" Height="80" Background="#FF979797" BorderBrush="{x:Null}" BorderThickness="8"/>
+            <Button Content="F" Width="80" Height="80" Background="#FFD4D4D4" BorderBrush="{x:Null}" BorderThickness="8"/>
+        </WrapPanel>
+
     </Grid>
 </Window>
